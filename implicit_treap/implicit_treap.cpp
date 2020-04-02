@@ -33,7 +33,7 @@ int main()
     treap.insert(2, -1);
     print(treap); // (2, 5, -1, 5, 5, 7, 5, 16)
 
-    cout << treap.rangeSum(2, 4) << endl; // 4
+    cout << treap.rangeSum(2, 3) << endl; // -1
 
     cout << treap[0] + treap[2] << endl; // 1
 
